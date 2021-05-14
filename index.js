@@ -17,7 +17,7 @@ const path = require('path');
 
 // dotenv.config({path: "./config.env" })
 // require("./db/conn")
-const port = process.env.port || 8080
+// const port = process.env.PORT || 8080
 // app.use(require("./router/auth"))
 
 
@@ -59,6 +59,6 @@ if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging')
   }
 
 
-app.listen(port, ()=>{
+app.listen(process.env.PORT , ()=>{
     console.log(`listing to port ${port}`)
 })
