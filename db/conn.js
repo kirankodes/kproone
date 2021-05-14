@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-// const  db = 'mongodb+srv://kiran:kiran7117@@cluster0.i64pm.mongodb.net/mernstackone?retryWrites=true&w=majority'
-const db = process.env.con 
+const  db = 'mongodb+srv://kiran:kiran7117@@cluster0.i64pm.mongodb.net/mernstackone?retryWrites=true&w=majority'
+// const db = process.env.con 
 
 mongoose.connect(db, {
     useCreateIndex:true,
