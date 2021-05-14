@@ -18,7 +18,7 @@ const path = require('path');
 // dotenv.config({path: "./config.env" })
 // require("./db/conn")
 const port = process.env.port || 8080
-app.use(require("./router/auth"))
+// app.use(require("./router/auth"))
 
 
 const middleware = (req, res, next) => {
