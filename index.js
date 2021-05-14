@@ -60,5 +60,5 @@ if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging')
 
 
 app.listen(process.env.PORT , ()=>{
-    console.log(`listing to port ${port}`)
+    console.log(`listing to port `)
 })
